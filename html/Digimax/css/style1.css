@@ -1,0 +1,117 @@
+.background {
+	display: flex;
+	/* background-color: blueviolet; */
+}
+
+header {
+	justify-content: space-evenly;
+	display: flex;
+	width: 100%;
+	height: 6rem;
+	background-color: rgb(66, 22, 138);
+
+}
+
+header>.logo {
+	justify-content: center;
+
+}
+
+header>.logo>a>img {
+	margin-top: 15px;
+	color: white;
+}
+
+header>.logo>a {
+	width: 19%;
+}
+
+header>.logo>a>img {
+	justify-content: center;
+	align-items: center;
+
+}
+
+header>nav {
+	width: 70%;
+	display: flex;
+	align-items: center;
+	font-weight: bolder;
+	font-size: medium;
+	font-family: sans-serif;
+	justify-content: space-evenly;
+}
+
+header>nav>.logos {
+	width: 50%;
+	color: white;
+}
+
+header>nav>.logos>i {
+	margin-left: 20px;
+}
+
+header>nav>.logos>i:hover {
+	color: rgb(218, 214, 214);
+	cursor: pointer;
+
+}
+
+header>nav>.logos>a {
+	margin-right: 15PX;
+	margin-left: 20px;
+	font-family: sans-serif;
+}
+
+header>nav>.logos>a>i {
+	color: white;
+	padding: 10px 20px;
+	font-size: 20px;
+	border: 1px solid white;
+	border-radius: 20px;
+}
+
+
+header>nav>ul {
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	display: flex;
+}
+
+header>nav>ul>li>a {
+	color: white;
+}
+
+header>nav>ul>li>a:hover {
+	color: rgb(218, 214, 214);
+}
+
+/* Section */
+.mainsection {
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	background-position: center;
+	background-size:cover;
+	/* opacity: .5; */
+	/* background-image: url('https://digimx-vue.theme-land.com/assets/img/welcome_bg_4.jpg'); */
+}
+.mainsection > .backimg{
+	width: 100%;
+	height: 100vh;
+	justify-content: center;
+	align-items: center	;
+	background-color:rgb(66, 22, 138);
+}
+.mainsection > .backimg > h1{
+	font-size: 60px;
+	font-weight: bold;
+	color: white;
+	align-items: center;
+	justify-content: center;
+	margin-left: 22%;
+	font-family: sans-serif;
+	padding-top: 13%;
+}
+
