@@ -135,52 +135,145 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
 /* reset css */
-header{
+header {
     height: 7rem;
-    background-color: rgb(34, 6, 134);
+    background-color: rgb(48, 17, 161);
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     opacity: .8;
 }
-header > .logo{
-    width: 19%;
 
-}
 
-header > nav{
+header>nav {
     display: flex;
     width: 70%;
+    position: sticky;
     color: white;
     justify-content: space-evenly;
     font-weight: bolder;
     font-size: 1.rem;
 }
-header > nav > .logos{
+
+header>nav>ul>li>a:hover {
+    color: rgb(170, 165, 165);
+    transition: .3s;
+}
+
+header>nav>.logos {
     justify-content: space-evenly;
     width: 50%;
 }
-header > nav > .logos > i {
+
+header>nav>.logos:hover {
+    cursor: pointer;
+}
+
+header>nav>.logos>i {
     margin-left: 15px;
 }
-header > nav > .logos > a{
+
+header>nav>.logos>i:hover {
+    transition: .3s;
+    color: rgb(170, 165, 165);
+
+}
+
+header>nav>.logos>a {
     color: white;
+    border: 1px solid white;
+    padding: 15px 30px;
+    border-radius: 25px;
     margin-left: 15px;
 }
-header > nav > .logos > a > i{
-    font-size: large;
+
+header>nav>.logos>a>i {
+    font-size: 1.2rem;
+
 }
-header > nav > ul {
+
+header>nav>.logos>a>i:hover {
+    transition: .3s;
+    color: rgb(170, 165, 165);
+
+}
+
+header>nav>ul {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
 }
-header > nav > ul > li > a{
+
+header>nav>ul>li>a {
     color: white;
+}
+
+/* section */
+section {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(34, 8, 124);
+
+}
+
+.mainsection>.backimg {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    opacity: .5;
+    background-position: center;
+    background-image: url('https://digimx-vue.theme-land.com/assets/img/welcome_bg_4.jpg');
+}
+
+.mainsection>.backimg>h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding-top: 15%;
+    opacity: 1;
+}
+
+.mainsection>.backimg>p {
+    font-size: 1rem;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    padding-top: 15px;
+    opacity: 1;
+}
+
+.mainsection>.backimg>.link {
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.mainsection>.backimg>.link>a {
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.mainsection>.backimg>.link>a:hover {
+    background-color: blueviolet;
+    opacity: 0.5;
+    transition: 0.3s;
 }
