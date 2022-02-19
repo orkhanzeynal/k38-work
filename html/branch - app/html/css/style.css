@@ -1,0 +1,111 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+.navbar {
+    margin-top: 3rem;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 3px 2rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: rgb(53, 207, 245);
+    color: rgb(250, 245, 245);
+    transition: 0.1ms;
+    border: 1px solid rgb(53, 207, 245);
+}
+
+/* login */
+.form {
+    display: inline;
+    text-align: right;
+}
+
+#email,
+#pass {
+    padding: 3px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.sign_in_button {
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: rgb(59, 102, 241);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.sign_in_button:hover {
+    cursor: pointer;
+    color: rgb(59, 102, 241);
+    background-color: rgb(255, 255, 255);
+    border: 0.1px solid rgb(59, 102, 241);
+}
+
+.forgot {
+    margin-top: 10px;
+    padding-top: 5px;
+}
+
+/* mainblock */
+.mainblock {
+    margin-top: 10px;
+}
+
+.sec_text {
+    color: rgb(116, 110, 110);
+    text-align: center;
+}
+
+.mainvideo {
+    width: 100%;
+}
+
+.sec_text2 {
+    color: rgb(116, 110, 110);
+    text-align: center;
+
+}
+
+.main2video {
+    width: 100%;
+}
+
+/* Contact */
+
+.contact {
+    padding-top: 1rem;
+    text-align: center;
+    background-color: rgb(247, 239, 170);
+}
+
+textarea {
+    margin-top: 1rem;
+}
+
+.sendbutton {
+    margin-top: 5px;
+    border: none;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(38, 124, 182);
+}
+
+.sendbutton:hover {
+    cursor: pointer;
+    color: #267cb6;
+    background-color: aliceblue;
+    border:1px solid #267cb6;
+}

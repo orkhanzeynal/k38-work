@@ -1,0 +1,50 @@
+body{
+    background-image: url("/media/reset.jpeg");
+    background-size: 100%;
+}
+.forgot{
+    text-align: center;
+    
+    margin-top: 20%;
+}
+.name{
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom:10px ;
+}
+.pass{
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.age{
+    margin: 10px 0;
+    text-align: end;
+    border-radius: 5px;
+}
+.id{
+    border-radius: 5px;
+    padding: 10px;
+}
+.resetpass{
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: rgb(68, 122, 238);
+    color: azure;
+}
+.resetpass:hover{
+    cursor: pointer;
+}
+.signin{
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgb(68, 122, 238);
+    color: azure;
+}
+.signin:hover{
+    cursor: pointer;
+}
