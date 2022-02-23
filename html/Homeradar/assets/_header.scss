@@ -1,0 +1,94 @@
+header {
+    height: 78px;
+    background-color: rgb(255, 255, 255);
+    @include around();
+    width: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+
+    .logo {
+        width: 30%;
+
+        img {
+            margin-left: 20px;
+            width: auto;
+            height: 30px;
+        }
+    }
+
+    nav {
+        color: #194676;
+        width: 100%;
+        @include between();
+
+        .search {
+            width: 50%;
+
+            span {
+                width: 10%;
+                padding: 10px 35px;
+                border-radius: 10px;
+                background-color: #F5F7FB;
+                font-size: 13px;
+
+                i {
+                    margin-right: 6px;
+                    color: #2e64e0;
+                    font-size: 13px;
+                }
+            }
+        }
+
+        li {
+            width: 20%;
+        }
+
+        ul {
+            width: 100%;
+            @include around();
+            li{
+                a{
+                    color: #2e64e0;
+                }
+            }
+        }
+
+        .second-ul {
+            @include evenly();
+            width: 150%;
+            li {
+                a {
+                    color: #2e64e0;
+
+                    .fa-user,.fa-bell{
+                        color: #ccc;
+                        margin-right: 5px;
+                        font-size: 15px;
+                    }
+                    .globe{
+                        font-size: 15px;
+                    }
+                }
+            }
+            .listin{
+                background-color: #3270FC;
+                border-radius: 5px;
+                padding: 7px 20px;
+                margin-right: 20px;
+                a{color: #fff;
+                   
+
+                    i{
+                        margin-right: 5px;
+                        padding: 5px;
+                        background-color: #5B8DFD;
+                        border-radius:50%;
+
+                    }
+                }
+            }
+        }
+
+    }
+}

@@ -1,0 +1,183 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 78px;
+  background-color: white;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+header .logo {
+  width: 30%;
+}
+
+header .logo img {
+  margin-left: 20px;
+  width: auto;
+  height: 30px;
+}
+
+header nav {
+  color: #194676;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav .search {
+  width: 50%;
+}
+
+header nav .search span {
+  width: 10%;
+  padding: 10px 35px;
+  border-radius: 10px;
+  background-color: #F5F7FB;
+  font-size: 13px;
+}
+
+header nav .search span i {
+  margin-right: 6px;
+  color: #2e64e0;
+  font-size: 13px;
+}
+
+header nav li {
+  width: 20%;
+}
+
+header nav ul {
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav ul li a {
+  color: #2e64e0;
+}
+
+header nav .second-ul {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150%;
+}
+
+header nav .second-ul li a {
+  color: #2e64e0;
+}
+
+header nav .second-ul li a .fa-user, header nav .second-ul li a .fa-bell {
+  color: #ccc;
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+header nav .second-ul li a .globe {
+  font-size: 15px;
+}
+
+header nav .second-ul .listin {
+  background-color: #3270FC;
+  border-radius: 5px;
+  padding: 7px 20px;
+  margin-right: 20px;
+}
+
+header nav .second-ul .listin a {
+  color: #fff;
+}
+
+header nav .second-ul .listin a i {
+  margin-right: 5px;
+  padding: 5px;
+  background-color: #5B8DFD;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */
