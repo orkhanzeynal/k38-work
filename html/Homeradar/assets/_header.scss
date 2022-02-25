@@ -47,9 +47,18 @@ header {
         ul {
             width: 100%;
             @include around();
-            li{
-                a{
+
+            li {
+                a {
                     color: #2e64e0;
+
+                    i {
+                        .fa-caret-down {
+                            &:hover {
+                                transform: rotateY(180deg);
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -57,33 +66,41 @@ header {
         .second-ul {
             @include evenly();
             width: 150%;
+
             li {
                 a {
                     color: #2e64e0;
 
-                    .fa-user,.fa-bell{
+                    .globe {
+                        font-size: 20px;
+                    }
+
+                    .fa-user,
+                    .fa-bell {
                         color: #ccc;
                         margin-right: 5px;
                         font-size: 15px;
+
                     }
-                    .globe{
-                        font-size: 15px;
-                    }
+
                 }
             }
-            .listin{
+
+            .listin {
                 background-color: #3270FC;
                 border-radius: 5px;
                 padding: 7px 20px;
                 margin-right: 20px;
-                a{color: #fff;
-                   
 
-                    i{
+                a {
+                    color: #fff;
+
+
+                    i {
                         margin-right: 5px;
                         padding: 5px;
                         background-color: #5B8DFD;
-                        border-radius:50%;
+                        border-radius: 50%;
 
                     }
                 }

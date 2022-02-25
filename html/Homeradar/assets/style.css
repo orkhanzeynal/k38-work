@@ -136,6 +136,11 @@ header nav ul li a {
   color: #2e64e0;
 }
 
+header nav ul li a i .fa-caret-down:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
 header nav .second-ul {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
@@ -153,13 +158,14 @@ header nav .second-ul li a {
   color: #2e64e0;
 }
 
-header nav .second-ul li a .fa-user, header nav .second-ul li a .fa-bell {
-  color: #ccc;
-  margin-right: 5px;
-  font-size: 15px;
+header nav .second-ul li a .globe {
+  font-size: 20px;
 }
 
-header nav .second-ul li a .globe {
+header nav .second-ul li a .fa-user,
+header nav .second-ul li a .fa-bell {
+  color: #ccc;
+  margin-right: 5px;
   font-size: 15px;
 }
 
@@ -179,5 +185,46 @@ header nav .second-ul .listin a i {
   padding: 5px;
   background-color: #5B8DFD;
   border-radius: 50%;
+}
+
+section {
+  height: 100vh;
+  background-image: url("https://homeradar.kwst.net/images/bg/14.jpg");
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+section .mainsection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  color: #fff;
+  font-size: 40px;
+  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section .mainsection .needmore {
+  font-size: 20px;
+}
+
+section .mainsection .needmore P {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=style.css.map */
