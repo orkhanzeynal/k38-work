@@ -137,7 +137,7 @@ header nav ul li a {
   color: #fff;
 }
 
-section {
+.mainsection {
   width: 100%;
   position: relative;
   height: 100vh;
@@ -146,7 +146,7 @@ section {
   background-position: center;
 }
 
-section .main {
+.mainsection .main {
   position: absolute;
   height: 100vh;
   display: -webkit-box;
@@ -165,36 +165,36 @@ section .main {
   background-color: rgba(20, 39, 74, 0.5);
 }
 
-section .main .welcome {
+.mainsection .main .welcome {
   margin-left: 150px;
   color: #fff;
   width: 40%;
   font-family: "Fredoka", sans-serif;
 }
 
-section .main .welcome h2 {
+.mainsection .main .welcome h2 {
   font-size: 30px;
 }
 
-section .main .welcome .hotels {
+.mainsection .main .welcome .hotels {
   font-size: 30px;
   letter-spacing: 6px;
   font-family: "Times New Roman", Times, serif;
 }
 
-section .main .welcome h1 {
+.mainsection .main .welcome h1 {
   font-size: 60px;
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
   letter-spacing: 5px;
 }
 
-section .main .welcome p {
+.mainsection .main .welcome p {
   margin-top: 5px;
   line-height: 15px;
 }
 
-section .main .book-now {
+.mainsection .main .book-now {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -210,7 +210,7 @@ section .main .book-now {
   width: 100%;
 }
 
-section .main .book-now button {
+.mainsection .main .book-now button {
   font-weight: bold;
   background-color: #E0B973;
   border: none;
@@ -222,18 +222,20 @@ section .main .book-now button {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
-section .main .book-now button:hover {
+.mainsection .main .book-now button:hover {
   cursor: pointer;
   color: #14274A;
 }
 
-section .main .book-now button i {
+.mainsection .main .book-now button i {
   margin-right: 10px;
 }
 
-section .main .scroll {
+.mainsection .main .scroll {
   bottom: 20px;
   color: #fff;
   position: absolute;
@@ -250,13 +252,15 @@ section .main .scroll {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
-section .main .scroll:hover {
+.mainsection .main .scroll:hover {
   cursor: pointer;
 }
 
-section .main .scroll a span {
+.mainsection .main .scroll a span {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
@@ -267,12 +271,306 @@ section .main .scroll a span {
       justify-content: space-around;
 }
 
-section .main .scroll a span i {
+.mainsection .main .scroll a span i {
   color: #fff;
   margin-top: 10px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
-section .main .scroll a span i:hover {
+.mainsection .main .scroll a span i:hover {
   color: #E0B973;
+}
+
+.second-sec p {
+  text-align: center;
+  height: 80px;
+  font-weight: bold;
+  font-family: "Fredoka", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  scroll-behavior: smooth;
+}
+
+.second-sec .section2 {
+  font-family: "Fredoka", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 120vh;
+}
+
+.second-sec .section2 .blocks {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.second-sec .section2 .blocks .redefined {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  float: left;
+  height: 200px;
+  border-left: 1px solid #14274A;
+  padding-left: 15px;
+}
+
+.second-sec .section2 .blocks .redefined h2 {
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.second-sec .section2 .blocks .redefined p {
+  text-align: left;
+  font-weight: normal;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.second-sec .section2 .blocks .redefined button {
+  color: #fff;
+  background-color: #E0B973;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.second-sec .section2 .blocks .redefined button:hover {
+  cursor: pointer;
+  background-color: #14274A;
+  content: 'Click me';
+}
+
+.second-sec .section2 .blocks .re-img {
+  width: 400px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.second-sec .section2 .blocks .re-img:hover {
+  cursor: pointer;
+  opacity: .6;
+  border: 1px solid #E0B973;
+  padding: 8px;
+}
+
+.second-sec .section2 .testimon {
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.second-sec .section2 .testimon h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.second-sec .section2 .testimon .calm {
+  margin-top: 20px;
+}
+
+.second-sec .section2 .testimon .calm h2 {
+  font-weight: bold;
+}
+
+.second-sec .section2 .testimon .calm p {
+  font-weight: normal;
+}
+
+.second-sec .section2 .testimon .calm i {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #E0B973;
+  color: #fff;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.second-sec .section2 .testimon .calm i:hover {
+  cursor: pointer;
+  background-color: #14274A;
+}
+
+footer .footer {
+  width: 100%;
+  height: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #14274A;
+  color: #fff;
+  font-family: "Fredoka", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .footer .lux-footer {
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100px;
+}
+
+footer .footer .lux-footer h2 {
+  letter-spacing: 5px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+footer .footer .lux-footer .hotels {
+  margin-left: 12px;
+  margin-bottom: 8px;
+}
+
+footer .footer .about-us {
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100px;
+}
+
+footer .footer .social {
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100px;
+}
+
+footer .footer .social h2 i {
+  margin-right: 10px;
+}
+
+footer .footer .subscribe {
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100px;
+}
+
+footer .footer .subscribe .label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer .subscribe .label label {
+  border: 1px solid #E0B973;
+  width: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 20px;
+  text-align: left;
+}
+
+footer .footer .subscribe .label button {
+  width: 50px;
+  padding: 10px 10px;
+  color: #333;
+  background-color: #E0B973;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 5px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+footer .footer .subscribe .label button:hover {
+  cursor: pointer;
+  background-color: #14274A;
+  color: #fff;
+  border: 1px solid #E0B973;
 }
 /*# sourceMappingURL=style.css.map */
