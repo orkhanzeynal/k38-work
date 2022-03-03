@@ -2,7 +2,8 @@ header {
   width: 100%;
   @include around();
   align-items: center;
-  background-color: #333;
+  position: absolute;
+  z-index: 1;
 
   .logo {
     width: 40%;
@@ -37,13 +38,15 @@ header {
       @include around();
       li {
         @include between();
-        &:nth-child(1){
+        &:nth-child(1) {
           border-bottom: 1px solid white;
-        }
-        a{
-          color: #333;
-
+          &:hover{
+            
           }
+        }
+        a {
+          color: #fff;
+        }
       }
     }
   }

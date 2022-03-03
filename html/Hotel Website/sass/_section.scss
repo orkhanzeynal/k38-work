@@ -1,0 +1,92 @@
+section {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  background-image: url("/assets/gabriel.jpg");
+  background-size: cover;
+  background-position: center;
+  .main {
+    position: absolute;
+    height: 100vh;
+    @include around();
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba($color: $bg-color, $alpha: 0.5);
+
+    .welcome {
+      margin-left: 150px;
+      color: #fff;
+      width: 40%;
+
+      font-family: "Fredoka", sans-serif;
+      h2 {
+        font-size: 30px;
+      }
+      .hotels {
+        font-size: 30px;
+        letter-spacing: 6px;
+        font-family: "Times New Roman", Times, serif;
+      }
+      h1 {
+        font-size: 60px;
+        font-weight: bold;
+        font-family: "Times New Roman", Times, serif;
+        letter-spacing: 5px;
+      }
+      p {
+        margin-top: 5px;
+        line-height: 15px;
+      }
+    }
+    .book-now {
+      align-items: center;
+      @include around();
+      flex-direction: column;
+      width: 100%;
+      button {
+        font-weight: bold;
+        background-color: $maincolor;
+        border: none;
+        color: #fff;
+        padding: 10px 15px;
+        border-radius: 5px;
+        @include around();
+        &:hover {
+          cursor: pointer;
+          color: $bg-color;
+        }
+        i {
+          margin-right: 10px;
+        }
+      }
+    }
+
+    .scroll {
+      bottom: 20px;
+      color: #fff;
+      position: absolute;
+      @include around();
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      &:hover{
+          cursor: pointer;
+      }
+      a {
+        span {
+          align-items: flex-end;
+          @include around();
+          i {
+              color: #fff;
+            margin-top: 10px;
+            &:hover{
+                color: $maincolor;
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
