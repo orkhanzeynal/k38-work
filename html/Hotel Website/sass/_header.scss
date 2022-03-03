@@ -1,0 +1,53 @@
+header {
+  width: 100%;
+  @include around();
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+
+  .logo {
+    width: 40%;
+    width: 150px;
+    height: 70px;
+    background-color: $maincolor;
+    color: $bg-color;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    line-height: 20px;
+    flex-direction: column;
+
+    h1 {
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      font-family: "Times New Roman", Times, sans-serif;
+    }
+    p {
+      font-size: 14px;
+      font-family: sans-serif;
+      letter-spacing: 2px;
+    }
+  }
+
+  nav {
+    width: 40%;
+    ul {
+      @include around();
+      li {
+        @include between();
+        &:nth-child(1) {
+          border-bottom: 1px solid white;
+          &:hover{
+            
+          }
+        }
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

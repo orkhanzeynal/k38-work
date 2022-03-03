@@ -1,0 +1,278 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  z-index: 1;
+}
+
+header .logo {
+  width: 40%;
+  width: 150px;
+  height: 70px;
+  background-color: #E0B973;
+  color: #14274A;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+header .logo h1 {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-family: "Times New Roman", Times, sans-serif;
+}
+
+header .logo p {
+  font-size: 14px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+}
+
+header nav {
+  width: 40%;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header nav ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav ul li:nth-child(1) {
+  border-bottom: 1px solid white;
+}
+
+header nav ul li a {
+  color: #fff;
+}
+
+section {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  background-image: url("/assets/gabriel.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+section .main {
+  position: absolute;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  background-color: rgba(20, 39, 74, 0.5);
+}
+
+section .main .welcome {
+  margin-left: 150px;
+  color: #fff;
+  width: 40%;
+  font-family: "Fredoka", sans-serif;
+}
+
+section .main .welcome h2 {
+  font-size: 30px;
+}
+
+section .main .welcome .hotels {
+  font-size: 30px;
+  letter-spacing: 6px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+section .main .welcome h1 {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 5px;
+}
+
+section .main .welcome p {
+  margin-top: 5px;
+  line-height: 15px;
+}
+
+section .main .book-now {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+section .main .book-now button {
+  font-weight: bold;
+  background-color: #E0B973;
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section .main .book-now button:hover {
+  cursor: pointer;
+  color: #14274A;
+}
+
+section .main .book-now button i {
+  margin-right: 10px;
+}
+
+section .main .scroll {
+  bottom: 20px;
+  color: #fff;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .main .scroll:hover {
+  cursor: pointer;
+}
+
+section .main .scroll a span {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+section .main .scroll a span i {
+  color: #fff;
+  margin-top: 10px;
+}
+
+section .main .scroll a span i:hover {
+  color: #E0B973;
+}
+/*# sourceMappingURL=style.css.map */
