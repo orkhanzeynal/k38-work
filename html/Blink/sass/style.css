@@ -1,0 +1,48 @@
+.bg-container {
+  background-image: url("/img/blink-bg.png");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-container nav {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.bg-container nav .dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.6);
+  left: -50px;
+}
+
+.bg-container nav .navbar-toggler-icon {
+  color: #fff;
+}
+
+.bg-container nav a {
+  color: #fff;
+}
+
+.bg-container nav .blog {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.bg-container nav .blog:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.section-1 .container .cards .card {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  height: 300px;
+}
+
+.section-1 .container .cards .card i {
+  font-size: 50px;
+}
+/*# sourceMappingURL=style.css.map */

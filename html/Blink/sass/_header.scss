@@ -1,0 +1,26 @@
+.bg-container{
+    background-image: url('/img/blink-bg.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    nav{
+        background-color: rgba($color: #000000, $alpha:.6);
+        .dropdown-menu{
+            background-color: rgba($color: #000000, $alpha: .6);
+            left: -50px;
+            
+        }
+        .navbar-toggler-icon{
+            color: #fff;
+        }
+        a{
+            color: #fff;
+        }
+        .blog{
+            transition: 1s;
+            &:hover{
+                border-bottom: 1px solid #fff;
+            }
+        }
+    }
+}
