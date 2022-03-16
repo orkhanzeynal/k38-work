@@ -1,4 +1,9 @@
 .container-sm {
   background-color: blue;
 }
+
+.container-sm .row .user img .img-fluid {
+  background-color: #333;
+  width: 20px;
+}
 /*# sourceMappingURL=style.css.map */
