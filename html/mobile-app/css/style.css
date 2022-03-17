@@ -1,9 +1,28 @@
-.container-sm {
-  background-color: blue;
+section {
+  height: 100vh;
+  background: #010230;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(52%, #010230), to(#0b0a79));
+  background: linear-gradient(180deg, #010230 52%, #0b0a79 100%);
 }
 
-.container-sm .row .user img .img-fluid {
-  background-color: #333;
-  width: 20px;
+section .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section .nav .img-fluid {
+  width: 50px;
+}
+
+section .card {
+  height: 12rem;
+  border-radius: 30px;
+  background: #09054a;
+  background: radial-gradient(circle, #09054a 0%, #299846 37%, #e70aed 100%);
 }
 /*# sourceMappingURL=style.css.map */
