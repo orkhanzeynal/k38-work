@@ -11,15 +11,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
         integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="icon" type="image/x-icon" href="https://reactjs.org/logo-og.png">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <section class="container">
+    <section class="container-sm">
         <!-- header -->
         <div class="nav row text-light">
-            <div class="main col col-10 d-flex flex-column align-items-start">
-                <h3>Hello,</h3>
+            <div class="main col col-10 d-flex flex-column align-items-start lh-1 mt-2">
+                <h3 class="fw-bold">Hello,</h3>
                 <p class="text-secondary">Bryce Turner</p>
             </div>
             <div class="user col col-2 d-flex align-items-center">
@@ -44,12 +45,71 @@
                 </div>
             </div>
         </div>
+        <!-- TOOLS -->
+        <div class="tools row mt-4 text-light">
 
-        <div class="tools">
-            .col
+            <div class=" d-flex col col-12 m-2 text-center">
+                <div class="box1 col col-3">
+                    <i class="fa-solid fa-chart-pie p-4"></i>
+                    <p class="mt-1">Analyze</p>
+                </div>
+                <div class="box2 col col-3 ms-2">
+                    <i class="calendar fa-regular fa-calendar-check  p-4"></i>
+                    <p class="mt-1">Calendar</p>
+                </div>
+                <div class="box3 col col-3 ms-1">
+                    <i class="fa-regular fa-file-lines p-4"></i>
+                    <p class="mt-1">Document</p>
+                </div>
+                <div class="box4 col col-3">
+                    <i class="fa-solid fa-bookmark p-4"></i>
+                    <p class="mt-1">Collect</p>
+                </div>
+            </div>
+
+        </div>
+        <!-- TRANSACTION -->
+
+        <div class="row">
+            <div class="col text-light">
+                <div class="details d-flex justify-content-between">
+                    <p class="fw-bold">Transaction details</p>
+                    <p class="text-secondary">View All</p>
+                </div>
+            </div>
+
+            <div class="dribbble text-light d-flex justify-content-between">
+                <div class="logodri d-flex">
+                    <img style="width: 50px; height: 50px;" class="d-flex f-left"
+                        src="https://www.seekpng.com/png/full/858-8584539_download-vector-basketball-ball-png.png"
+                        alt="">
+                    <div class="13jan lh-1 ms-1">
+                        <p class="fw-bold"> Dribbble</p>
+                        <p class="text-secondary">13 jan 22</p>
+                    </div>
+                </div>
+                <div class="amount lh-1">
+                    <p class="fw-bold">-$102.24</p>
+                    <p class="text-secondary">3:24 PM</p>
+                </div>
+            </div>
+            <div class="dribbble text-light d-flex justify-content-between">
+                <div class="logodri d-flex">
+                    <img style="width: 50px; height: 50px;" class="d-flex f-left"
+                        src="https://xpsship.com/wp-content/uploads/2017/06/amazon-a.png"
+                        alt="">
+                    <div class="13jan lh-1 ms-1">
+                        <p class="fw-bold"> Amazon Shipping</p>
+                        <p class="text-secondary">12 jan 22</p>
+                    </div>
+                </div>
+                <div class="amount lh-1">
+                    <p class="fw-bold">-$32.24</p>
+                    <p class="text-secondary">2:35 PM</p>
+                </div>
+            </div>
             
         </div>
-
     </section>
 </body>
 

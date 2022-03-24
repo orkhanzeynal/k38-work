@@ -33,4 +33,36 @@ section .card span i {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
 }
+
+section .tools {
+  width: 100%;
+}
+
+section .tools .fa-chart-pie {
+  font-size: 30px;
+  border-radius: 15px;
+  background: #010230;
+  background: linear-gradient(103deg, #010230 0%, #012b56 11%, #0cd4d9 100%);
+}
+
+section .tools .calendar {
+  font-size: 30px;
+  border-radius: 15px;
+  background: #0cd4d9;
+  background: linear-gradient(103deg, #0cd4d9 0%, #77d015 100%);
+}
+
+section .tools .fa-file-lines {
+  font-size: 30px;
+  border-radius: 15px;
+  background: #77d015;
+  background: linear-gradient(103deg, #77d015 0%, #a8c717 100%);
+}
+
+section .tools .fa-bookmark {
+  font-size: 30px;
+  border-radius: 15px;
+  background: #a8c717;
+  background: linear-gradient(103deg, #a8c717 0%, #cdb70a 100%);
+}
 /*# sourceMappingURL=style.css.map */
