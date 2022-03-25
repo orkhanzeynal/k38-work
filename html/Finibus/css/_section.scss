@@ -3,4 +3,12 @@ section{
     background-position: center;
     background-size: cover;
     height: 100vh;
+    .navbar{
+        height: 100px;
+        text-align: center;
+        justify-content: center;
+        .btn-danger{
+            border-radius: 15px;
+        }
+    }
 }

@@ -4,4 +4,16 @@ section {
   background-size: cover;
   height: 100vh;
 }
+
+section .navbar {
+  height: 100px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section .navbar .btn-danger {
+  border-radius: 15px;
+}
 /*# sourceMappingURL=style.css.map */
